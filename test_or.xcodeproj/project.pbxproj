@@ -14,6 +14,7 @@
 		4957641F289C0C2800E0A82F /* test_orTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957641E289C0C2800E0A82F /* test_orTests.swift */; };
 		49576429289C0C2800E0A82F /* test_orUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49576428289C0C2800E0A82F /* test_orUITests.swift */; };
 		4957642B289C0C2800E0A82F /* test_orUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957642A289C0C2800E0A82F /* test_orUITestsLaunchTests.swift */; };
+		49576438289C1A1700E0A82F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49576437289C1A1700E0A82F /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		49576424289C0C2800E0A82F /* test_orUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_orUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49576428289C0C2800E0A82F /* test_orUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_orUITests.swift; sourceTree = "<group>"; };
 		4957642A289C0C2800E0A82F /* test_orUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_orUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49576437289C1A1700E0A82F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				4957640F289C0C2400E0A82F /* ContentView.swift */,
 				49576411289C0C2800E0A82F /* Assets.xcassets */,
 				49576413289C0C2800E0A82F /* Preview Content */,
+				49576437289C1A1700E0A82F /* ImagePicker.swift */,
 			);
 			path = test_or;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49576438289C1A1700E0A82F /* ImagePicker.swift in Sources */,
 				49576410289C0C2400E0A82F /* ContentView.swift in Sources */,
 				4957640E289C0C2400E0A82F /* test_orApp.swift in Sources */,
 			);
