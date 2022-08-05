@@ -15,6 +15,10 @@
 		49576429289C0C2800E0A82F /* test_orUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49576428289C0C2800E0A82F /* test_orUITests.swift */; };
 		4957642B289C0C2800E0A82F /* test_orUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957642A289C0C2800E0A82F /* test_orUITestsLaunchTests.swift */; };
 		49576438289C1A1700E0A82F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49576437289C1A1700E0A82F /* ImagePicker.swift */; };
+		49A356F2289D3DF700D06270 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A356F1289D3DF700D06270 /* Classifier.swift */; };
+		49A356F4289D3E4D00D06270 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A356F3289D3E4D00D06270 /* ImageClassifier.swift */; };
+		49DB3324289D454F00768E6F /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 49DB3323289D454F00768E6F /* MobileNetV2.mlmodel */; };
+		49DB3330289D529100768E6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49DB332F289D529100768E6F /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,11 @@
 		49576428289C0C2800E0A82F /* test_orUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_orUITests.swift; sourceTree = "<group>"; };
 		4957642A289C0C2800E0A82F /* test_orUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_orUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		49576437289C1A1700E0A82F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		49A356F1289D3DF700D06270 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		49A356F3289D3E4D00D06270 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		49DB3323289D454F00768E6F /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		49DB332B289D4B4D00768E6F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DB332F289D529100768E6F /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +108,13 @@
 				4957640D289C0C2400E0A82F /* test_orApp.swift */,
 				4957640F289C0C2400E0A82F /* ContentView.swift */,
 				49576411289C0C2800E0A82F /* Assets.xcassets */,
+				49DB3323289D454F00768E6F /* MobileNetV2.mlmodel */,
 				49576413289C0C2800E0A82F /* Preview Content */,
 				49576437289C1A1700E0A82F /* ImagePicker.swift */,
+				49DB332B289D4B4D00768E6F /* Info.plist */,
+				49A356F1289D3DF700D06270 /* Classifier.swift */,
+				49A356F3289D3E4D00D06270 /* ImageClassifier.swift */,
+				49DB332F289D529100768E6F /* InfoPlist.strings */,
 			);
 			path = test_or;
 			sourceTree = "<group>";
@@ -235,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49576415289C0C2800E0A82F /* Preview Assets.xcassets in Resources */,
+				49DB3330289D529100768E6F /* InfoPlist.strings in Resources */,
 				49576412289C0C2800E0A82F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DB3324289D454F00768E6F /* MobileNetV2.mlmodel in Sources */,
+				49A356F2289D3DF700D06270 /* Classifier.swift in Sources */,
 				49576438289C1A1700E0A82F /* ImagePicker.swift in Sources */,
+				49A356F4289D3E4D00D06270 /* ImageClassifier.swift in Sources */,
 				49576410289C0C2400E0A82F /* ContentView.swift in Sources */,
 				4957640E289C0C2400E0A82F /* test_orApp.swift in Sources */,
 			);

@@ -11,7 +11,7 @@ import SwiftUI
 struct test_orApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(classifier: ImageClassifier())
         }
     }
 }
